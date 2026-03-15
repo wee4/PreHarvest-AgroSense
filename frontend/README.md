@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌾 PreHarvest – AgroSense (Frontend)
 
-## Getting Started
+## 📌 Overview
+**PreHarvest – AgroSense** is a smart agriculture web application that helps farmers monitor crop conditions, weather data, and farm resources through an intuitive dashboard.
 
-First, run the development server:
+The frontend provides a responsive interface where users can view farm analytics, check weather updates, and interact with an AI assistant for agricultural guidance.
+
+This repository contains the **frontend implementation** of the AgroSense platform.
+
+---
+
+## 🚀 Features
+
+### 🌤 Weather Monitoring
+- Displays real-time weather information
+- Shows temperature, humidity, rainfall, and wind speed
+- Helps farmers plan irrigation and farming activities
+
+### 📊 Farm Dashboard
+- Overview of farm statistics
+- Crop health indicators
+- Alerts for farm conditions
+
+### 🗺 Interactive Farm Map
+- Visualizes farm areas
+- Monitors crop zones and irrigation regions
+- Real-time updates on farm conditions
+
+### 🤖 AI Chat Assistant
+- Provides agricultural advice
+- Answers crop and farming related queries
+- Maintains conversation history during the session
+
+### 🔐 User Authentication
+- Login interface
+- Session-based user access
+
+### 📱 Responsive UI
+- Works on desktop, tablet, and mobile devices
+- Clean and user-friendly interface
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend Technologies**
+- HTML5
+- CSS3
+- JavaScript
+
+**Libraries / Tools**
+- Leaflet.js (for interactive maps)
+- REST API integration
+
+**Deployment**
+- Vercel
+
+---
+
+## 📂 Project Structure
+frontend/
+│
+├── index.html # Main entry point
+│
+├── assets/
+│ ├── css/
+│ │ └── styles.css
+│ │
+│ └── js/
+│ ├── app.js
+│ └── api.js
+│
+└── images/ # Static images and icons
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/wee4/PreHarvest-AgroSense.git
+2️⃣ Navigate to the frontend folder
+cd PreHarvest-AgroSense/frontend
+3️⃣ Open the application
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open index.html in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌐 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The frontend can be deployed using platforms like Vercel or GitHub Pages.
 
-## Learn More
+Steps:
 
-To learn more about Next.js, take a look at the following resources:
+Push the code to GitHub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Connect repository to Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy the frontend
 
-## Deploy on Vercel
+📈 Future Enhancements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Integration with real farm sensor data
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+AI-based crop disease detection
+
+Farm analytics dashboard
+
+Mobile application support
+
+🤝 Contributing
+
+Contributions are welcome.
+
+Steps:
+
+Fork the repository
+
+Create a new branch
+
+Commit your changes
+
+Submit a Pull Request
+
+📄 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Authors
+
+Developed as part of the PreHarvest – AgroSense Smart Farming Project.
