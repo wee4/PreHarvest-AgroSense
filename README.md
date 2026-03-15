@@ -1,164 +1,511 @@
-# HarvestSync - Pre-Harvest Ecosystem Coordination Platform
+# 🌾 HarvestSync
 
-A comprehensive platform connecting farmers, buyers, transporters, and other stakeholders to coordinate harvests and reduce food waste through Pre-Harvest Commitments.
+### Pre-Harvest Ecosystem Coordination Platform
 
-## Features
+![HarvestSync Banner](https://images.unsplash.com/photo-1500382017468-9049fed747ef)
 
-### Core Features
-1. **Harvest Readiness Score** - AI-powered scoring system based on demand, logistics, storage, and oversupply risk
-2. **Pre-Harvest Commitment System** - Buyers can pre-book crops before harvest
-3. **Cooperative Aggregation Mode** - Small farmers can combine harvests for bulk deals
-4. **Spoilage Risk Timer** - Real-time countdown and risk assessment
-5. **Transport Availability Module** - Transporters register availability, farmers see slots
-6. **Storage Availability Module** - Storage providers list capacity, buffer days calculator
-7. **Buyer Discovery** - Farmers see nearby buyers and open demand slots
-8. **Market Trend Module** - 7-day price trends and demand/supply ratios
+![GitHub stars](https://img.shields.io/github/stars/wee4/PreHarvest-AgroSense?style=social)
+![GitHub forks](https://img.shields.io/github/forks/wee4/PreHarvest-AgroSense?style=social)
+![Issues](https://img.shields.io/github/issues/wee4/PreHarvest-AgroSense)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-### Advanced Features
-- **KYC Verification System** - Verified accounts only
-- **Secure Payment Escrow** - Protects both farmers and buyers
-- **Instant Micro-Loans** - Based on pre-bookings
-- **Regional Coordination Map** - Visual heatmap of harvest timing
-- **Harvest Timing Game Theory Engine** - Prevents collective oversupply
-- **Waste-to-Profit Converter** - Suggests alternative buyers for low-quality crops
-- **Local Crop Diversification Engine** - Prevents oversupply through suggestions
-- **Offline-First Entry** - Farmers can enter data offline
-- **Low Data Mode** - Optimized for weak 3G connections
-- **FPO/Village Agent Mode** - Coordinators can enter data for multiple farmers
+---
 
-## Tech Stack
+# 🚀 Overview
 
-### Backend
-- Node.js + Express
-- TypeScript
-- MongoDB + Mongoose
-- JWT Authentication
-- bcryptjs for password hashing
+**HarvestSync** is a **Pre-Harvest Ecosystem Coordination Platform** that connects farmers, buyers, transporters, storage providers, and agricultural organizations before crops are harvested.
 
-### Frontend
-- Next.js 14
-- React 18
-- TypeScript
-- Tailwind CSS
-- Zustand for state management
-- Axios for API calls
+The platform introduces **Pre-Harvest Commitments**, allowing buyers to secure produce early while enabling farmers to plan logistics, reduce waste, and optimize harvest decisions.
 
-## Setup
+By combining **market analytics, logistics coordination, and cooperative aggregation**, HarvestSync creates a **coordinated agricultural marketplace that minimizes oversupply and crop loss.**
+
+---
+
+# 🌍 Problem Statement
+
+Agricultural supply chains suffer from several major inefficiencies:
+
+• sudden oversupply causing price crashes
+• lack of coordination between farmers and buyers
+• transport shortages during peak harvest
+• storage availability issues
+• crop spoilage due to delayed logistics
+
+Farmers often discover buyers **after harvest**, leading to distress selling and waste.
+
+HarvestSync solves this through **pre-harvest coordination across the entire ecosystem.**
+
+---
+
+# 💡 Solution
+
+HarvestSync enables **data-driven harvest planning** where stakeholders interact before crops are harvested.
+
+This allows:
+
+• buyers to reserve crops early
+• farmers to view real market demand
+• transporters to schedule routes ahead of time
+• storage providers to allocate warehouse space
+• cooperatives to aggregate small harvests
+
+---
+
+# ✨ Core Platform Features
+
+## 🌾 Harvest Readiness Score
+
+AI-assisted scoring system that evaluates harvest readiness based on:
+
+• market demand
+• transport availability
+• storage capacity
+• oversupply probability
+• spoilage risk
+
+Helps farmers determine **optimal harvest timing.**
+
+---
+
+## 📦 Pre-Harvest Commitment System
+
+Buyers can **reserve crops before harvest**.
+
+Benefits:
+
+• price stability for farmers
+• guaranteed supply for buyers
+• reduced uncertainty in the market
+
+---
+
+## 🤝 Cooperative Aggregation Mode
+
+Small farmers can combine harvests into **bulk supply clusters**.
+
+Advantages:
+
+• better bargaining power
+• access to larger buyers
+• reduced logistics costs
+
+---
+
+## ⏱ Spoilage Risk Timer
+
+Real-time system displaying:
+
+• remaining safe harvest window
+• spoilage probability
+• urgency alerts
+
+---
+
+## 🚚 Transport Availability Module
+
+Transporters can list:
+
+• vehicle availability
+• pickup routes
+• time slots
+
+Farmers can reserve transport before harvest.
+
+---
+
+## 🏬 Storage Availability Module
+
+Storage providers list:
+
+• warehouse capacity
+• storage duration
+• environmental conditions
+
+Includes **buffer day calculations for safe storage planning.**
+
+---
+
+## 🔎 Buyer Discovery Engine
+
+Farmers can view:
+
+• nearby buyers
+• open demand listings
+• pricing ranges
+• buyer credibility scores
+
+---
+
+## 📈 Market Trend Module
+
+Provides analytics including:
+
+• 7-day price trends
+• demand vs supply ratios
+• regional price fluctuations
+
+---
+
+# ⚡ Advanced Platform Features
+
+### 🔐 KYC Verification System
+
+Only verified users can participate in transactions.
+
+---
+
+### 💳 Secure Payment Escrow
+
+Funds remain in escrow until delivery confirmation.
+
+---
+
+### 💰 Instant Micro-Loans
+
+Farmers can access short-term loans based on **confirmed pre-bookings.**
+
+---
+
+### 🗺 Regional Coordination Map
+
+Interactive heatmap displaying harvest timing and supply density.
+
+---
+
+### 🧠 Harvest Timing Game-Theory Engine
+
+Prevents collective oversupply by recommending staggered harvest schedules.
+
+---
+
+### ♻ Waste-to-Profit Converter
+
+Suggests alternative buyers or industries for lower-grade produce.
+
+---
+
+### 🌱 Local Crop Diversification Engine
+
+Recommends crops to prevent regional oversupply.
+
+---
+
+### 📡 Offline-First Data Entry
+
+Farmers can record crop data without internet connectivity.
+
+---
+
+### 📉 Low Data Mode
+
+Optimized for rural areas with slow internet connections.
+
+---
+
+### 🧑‍🌾 FPO / Village Agent Mode
+
+Allows coordinators to manage multiple farmers.
+
+---
+
+# 🖥 Dashboards
+
+## Farmer Dashboard
+
+Features:
+
+• harvest readiness score
+• crop listings
+• buyer offers
+• transport bookings
+• spoilage alerts
+
+![Farmer Dashboard](https://images.unsplash.com/photo-1551288049-bebda4e38f71)
+
+---
+
+## Buyer Dashboard
+
+Allows buyers to:
+
+• browse crops
+• commit to pre-harvest deals
+• monitor supply contracts
+• analyze market trends
+
+![Buyer Dashboard](https://images.unsplash.com/photo-1460925895917-afdab827c52f)
+
+---
+
+## Logistics Dashboard
+
+Transport and storage providers can manage:
+
+• booking requests
+• route planning
+• availability schedules
+
+![Logistics Dashboard](https://images.unsplash.com/photo-1492724441997-5dc865305da7)
+
+---
+
+# 🧠 System Architecture
+
+```
+Farmers / Buyers / Transporters
+            │
+            ▼
+      Next.js Frontend
+            │
+            ▼
+      REST API Layer
+      (Node.js + Express)
+            │
+            ▼
+      Business Logic
+            │
+            ▼
+      MongoDB Database
+            │
+            ▼
+   Analytics & Coordination Engine
+            │
+            ▼
+     Role-Based Dashboards
+```
+
+---
+
+# 🛠 Tech Stack
+
+![Frontend](https://img.shields.io/badge/Frontend-Next.js-black)
+![Frontend](https://img.shields.io/badge/Frontend-React-blue)
+
+![Language](https://img.shields.io/badge/Language-TypeScript-blue)
+![Language](https://img.shields.io/badge/Language-JavaScript-yellow)
+
+![UI](https://img.shields.io/badge/UI-TailwindCSS-38B2AC)
+
+![Backend](https://img.shields.io/badge/Backend-Node.js-green)
+![Backend](https://img.shields.io/badge/Backend-Express.js-lightgrey)
+
+![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![ODM](https://img.shields.io/badge/ODM-Mongoose-red)
+
+![Auth](https://img.shields.io/badge/Auth-JWT-orange)
+![Security](https://img.shields.io/badge/Security-bcryptjs-yellow)
+
+![State](https://img.shields.io/badge/State-Zustand-purple)
+![API](https://img.shields.io/badge/API-Axios-blue)
+
+![Build](https://img.shields.io/badge/Build-Vite-purple)
+![Deployment](https://img.shields.io/badge/Deployment-Node%20Server-black)
+
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+---
+
+# ⚙️ Installation
 
 ### Prerequisites
-- Node.js 18+
-- MongoDB (local or Atlas)
-- npm or yarn
 
-### Installation
+Node.js 18+
+MongoDB (Local or Atlas)
+npm or yarn
 
-1. Install root dependencies:
+---
+
+### Install Dependencies
+
 ```bash
 npm install
 ```
 
-2. Install backend dependencies:
+---
+
+### Backend Setup
+
 ```bash
 cd backend
 npm install
 ```
 
-3. Install frontend dependencies:
+---
+
+### Frontend Setup
+
 ```bash
 cd frontend
 npm install
 ```
 
-4. Set up environment variables:
-```bash
-# Backend
+---
+
+### Environment Variables
+
+```
 cp backend/.env.example backend/.env
-# Edit backend/.env with your MongoDB URI and other configs
 ```
 
-5. Start development servers:
-```bash
-# From root directory
+Edit `.env` and add:
+
+```
+MONGODB_URI=
+JWT_SECRET=
+PORT=5000
+```
+
+---
+
+### Start Development Servers
+
+```
 npm run dev
-
-# Or separately:
-npm run dev:backend  # Runs on http://localhost:5000
-npm run dev:frontend # Runs on http://localhost:3000
 ```
 
-## Project Structure
+Or run separately
+
+```
+npm run dev:backend
+npm run dev:frontend
+```
+
+Backend → http://localhost:5000
+Frontend → http://localhost:3000
+
+---
+
+# 📂 Project Structure
 
 ```
 harvestsync/
+│
 ├── backend/
 │   ├── src/
-│   │   ├── models/          # MongoDB models
-│   │   ├── routes/          # API routes
-│   │   ├── services/        # Business logic
-│   │   ├── middleware/      # Auth, error handling
-│   │   └── server.ts        # Entry point
-│   └── package.json
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── middleware/
+│   │   └── server.ts
+│
 ├── frontend/
-│   ├── app/                 # Next.js app directory
-│   │   ├── dashboard/      # Role-based dashboards
-│   │   ├── login/           # Auth pages
-│   │   └── page.tsx         # Landing page
-│   ├── components/          # React components
-│   ├── lib/                 # Utilities
-│   └── store/               # State management
+│   ├── app/
+│   │   ├── dashboard/
+│   │   ├── login/
+│   │   └── page.tsx
+│   │
+│   ├── components/
+│   ├── lib/
+│   └── store/
+│
 └── README.md
 ```
 
-## User Roles
+---
 
-- **Farmer** - List crops, view readiness scores, manage harvests
-- **Buyer** - Browse crops, create pre-harvest commitments
-- **Transporter** - Register availability, offer transport
-- **FPO/AO** - Coordinate multiple farmers, create clusters
-- **Storage Provider** - List storage capacity
-- **Organization** - Bulk operations
+# 👥 User Roles
 
-## API Endpoints
+Farmer
+Buyer
+Transporter
+Storage Provider
+FPO / Agricultural Officer
+Organization
+
+---
+
+# 🔌 API Endpoints
 
 ### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/verify-otp` - Verify phone OTP
-- `POST /api/auth/login` - Login
-- `POST /api/auth/kyc/upload` - Upload KYC documents
-- `GET /api/auth/me` - Get current user
+
+POST `/api/auth/register`
+POST `/api/auth/verify-otp`
+POST `/api/auth/login`
+POST `/api/auth/kyc/upload`
+GET `/api/auth/me`
 
 ### Farmer
-- `POST /api/farmer/crop` - List new crop
-- `GET /api/farmer/crops` - Get farmer's crops
-- `GET /api/farmer/crop/:id` - Get crop details
-- `PUT /api/farmer/crop/:id` - Update crop
-- `GET /api/farmer/next-crop-suggestion` - Get crop suggestions
+
+POST `/api/farmer/crop`
+GET `/api/farmer/crops`
+GET `/api/farmer/crop/:id`
+PUT `/api/farmer/crop/:id`
+GET `/api/farmer/next-crop-suggestion`
 
 ### Buyer
-- `POST /api/buyer/demand` - Register demand
-- `GET /api/buyer/crops` - Browse available crops
-- `POST /api/buyer/commit` - Create pre-harvest commitment
-- `GET /api/buyer/commitments` - Get buyer's commitments
+
+POST `/api/buyer/demand`
+GET `/api/buyer/crops`
+POST `/api/buyer/commit`
+GET `/api/buyer/commitments`
 
 ### Transporter
-- `POST /api/transporter/availability` - Register availability
-- `GET /api/transporter/availability` - Get available slots
-- `POST /api/transporter/offer/:cropId` - Offer transport
 
-### Market & Analytics
-- `GET /api/market/trends` - Get market trends
-- `GET /api/harvest/readiness/:cropId` - Get readiness score
-- `GET /api/harvest/heatmap` - Regional harvest heatmap
+POST `/api/transporter/availability`
+GET `/api/transporter/availability`
+POST `/api/transporter/offer/:cropId`
 
-## Development
+### Market
 
-### Adding New Features
-1. Create/update models in `backend/src/models/`
-2. Add routes in `backend/src/routes/`
-3. Implement business logic in `backend/src/services/`
-4. Create frontend pages/components in `frontend/app/`
-5. Update API client in `frontend/lib/api.ts`
+GET `/api/market/trends`
+GET `/api/harvest/readiness/:cropId`
+GET `/api/harvest/heatmap`
 
-## License
+---
 
-MIT
+# 🔮 Future Roadmap
+
+• AI crop yield prediction
+• satellite crop monitoring
+• blockchain supply chain tracking
+• automated logistics matching
+• mobile farmer application
+
+---
+
+# 🤝 Contributing
+
+Fork the repository
+Create feature branch
+
+```
+git checkout -b feature-name
+```
+
+Commit changes
+
+```
+git commit -m "Added feature"
+```
+
+Push branch
+
+```
+git push origin feature-name
+```
+
+Create Pull Request.
+
+---
+
+# 📄 License
+
+MIT License
+
+---
+
+# 👨‍💻 Team
+
+Developed by **Team WEE4**
+
+Building technology to modernize agricultural supply chains and reduce food waste.
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork the repository
+📢 Share it with the community
