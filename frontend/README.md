@@ -60,18 +60,14 @@ This repository contains the **frontend implementation** of the AgroSense platfo
 ## 📂 Project Structure
 frontend/
 │
-├── index.html # Main entry point
-│
+├── index.html          # Main entry point
 ├── assets/
-│ ├── css/
-│ │ └── styles.css
-│ │
-│ └── js/
-│ ├── app.js
-│ └── api.js
-│
-└── images/ # Static images and icons
-
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       ├── app.js
+│       └── api.js
+└── images/             # Static images and icons
 
 ---
 
