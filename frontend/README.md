@@ -58,6 +58,8 @@ This repository contains the **frontend implementation** of the AgroSense platfo
 ---
 
 ## 📂 Project Structure
+
+```
 frontend/
 │
 ├── index.html          # Main entry point
@@ -68,8 +70,7 @@ frontend/
 │       ├── app.js
 │       └── api.js
 └── images/             # Static images and icons
-
----
+```
 
 ## ⚙️ Installation & Setup
 
